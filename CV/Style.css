@@ -1,0 +1,105 @@
+/*Colone de gauche et en-tête*/
+body
+{
+	margin: 20px;
+}
+h1
+{
+	font-size: 2.5em;
+	text-transform: uppercase;
+	margin-top: 8%;
+}
+h2
+{
+	font-size: 1.7em;
+	margin-top: 0%;
+}
+#column
+{
+	clear: both;
+}
+#title
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 30%;
+}
+#photo
+{
+	float: left;
+	width: 25%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+#column_left
+{
+	width: 25%;
+}
+#column_left p
+{
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: justify;
+}
+#column_left ul
+{
+	list-style: none;
+}
+#column_left ul p
+{
+	margin-left: 0%;
+	margin-top: 0%;
+}
+.hobbies
+{
+	text-align: center;
+	padding-bottom: 15px;
+	font-size: 1.4em;
+}
+.icons
+{
+	margin-left: 5%;
+	margin-right: 5%;
+	border: rgb(0, 0, 0) solid 3px;
+	border-radius: 100%;
+	padding: 10px 10px 10px 10px;
+}
+h3[class="color"]
+{
+	text-align: center;
+	color: rgb(254, 202, 7);
+	background-color: rgb(0, 0, 0);
+	text-transform: uppercase;
+	font-size: 1.4em;
+}
+.background_color
+{
+	background-color: rgb(254, 202, 7);
+}
+span[class="color"]
+{
+	color: rgb(254, 202, 7);
+}
+span[class="underline"]
+{
+	border-bottom: rgb(254, 202, 7) solid 3px;
+}
+/*Colone de droite*/
+#column_right
+{
+	margin-left: 30%;
+	position: absolute;
+	top: 33%;
+}
+#column_right h3
+{
+	border-bottom: rgb(254, 202, 7) solid 3px;
+	padding-bottom: 10px;
+	font size: 1.4em;
+}
+.dimensions
+{
+	font-size: 1.4em;
+	color: rgb(254, 202, 7);
+	padding-right: 10px;
+}
