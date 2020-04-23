@@ -34,6 +34,7 @@ h2
 #column_left
 {
 	width: 25%;
+	float: left;
 }
 #column_left p
 {
@@ -88,18 +89,53 @@ span[class="underline"]
 #column_right
 {
 	margin-left: 30%;
-	position: absolute;
-	top: 33%;
 }
 #column_right h3
 {
 	border-bottom: rgb(254, 202, 7) solid 3px;
 	padding-bottom: 10px;
-	font size: 1.4em;
+	font-size: 1.4em;
+	text-transform: uppercase;
+}
+#column_right article
+{
+	display: flex;
+	flex-direction: column;
+	margin-left: 40%;
+}
+#column_right h4, h5
+{
+	margin-bottom: 0%;
+	margin-top: 2%;
+}
+#column_right p
+{
+	margin-bottom: 5%;
+}
+.side
+{
+	float: left;
+}
+.side p
+{
+	margin-top: 0px;
+}
+.side2
+{
+	float: left;
 }
 .dimensions
 {
 	font-size: 1.4em;
 	color: rgb(254, 202, 7);
-	padding-right: 10px;
+	padding-right: 20px;
+}
+.paragraphe
+{
+	margin-bottom: 5%;
+	margin-top: 5%;
+}
+.paragraphe2
+{
+	
 }
