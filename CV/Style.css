@@ -29,7 +29,6 @@ h2
 	float: left;
 	width: 25%;
 	padding-top: 50px;
-	padding-bottom: 50px;
 }
 #column_left
 {
@@ -94,6 +93,7 @@ h2
 
 #column_right
 {
+	width: 60%;
 	margin-left: 30%;
 }
 #column_right h3
@@ -103,32 +103,32 @@ h2
 	font-size: 1.4em;
 	text-transform: uppercase;
 }
-#column_right article
+.format article
 {
 	display: flex;
 	flex-direction: column;
-	margin-left: 40%;
+	justify-content:
+}
+.format aside
+{
+	float: left;
+	width: 50%;
 }
 #column_right h4, h5
 {
 	margin-bottom: 0%;
 	margin-top: 2%;
 }
-#column_right p
+.format2
 {
-	margin-bottom: 5%;
+	display: flex;
 }
-.side
+.format2 aside
 {
-	float: left;
+	width: 55%;
 }
-.side p
+.format2 ul
 {
-	margin-top: 0px;
-}
-.side2 ul
-{
-	float: left;
 	list-style: none;
 }
 .dimensions
@@ -137,12 +137,12 @@ h2
 	color: rgb(254, 202, 7);
 	padding-right: 20px;
 }
-.paragraphe
+.format li
 {
-	margin-bottom: 5%;
-	margin-top: 5%;
+
 }
-#paragraphe2 ul
+.ul ul
 {
 	list-style: none;
+	list-style-image: url(image/dot-circle-regular.png);
 }
