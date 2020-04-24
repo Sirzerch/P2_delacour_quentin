@@ -137,12 +137,26 @@ h2
 	color: rgb(254, 202, 7);
 	padding-right: 20px;
 }
-.format li
+.format ul
 {
-
+	list-style: none;
+	list-style: url(image/puce_pleine.png);
 }
 .ul ul
 {
-	list-style: none;
-	list-style-image: url(image/dot-circle-regular.png);
+list-style: none;
+list-style: url(image/puce_cercle.png);
+}
+aside ul p
+{
+	margin-top: 1%;
+}
+.format2 p
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.format aside
+{
+	display: flex;
 }
