@@ -7,12 +7,14 @@ h1
 {
 	font-size: 2.5em;
 	text-transform: uppercase;
-	margin-top: 8%;
 }
 h2
 {
 	font-size: 1.7em;
-	margin-top: 0%;
+}
+.header
+{
+	display: flex;
 }
 #column
 {
@@ -20,16 +22,19 @@ h2
 }
 #title
 {
+	margin-left: 5%;
+	padding-top: 3%;
+}
+.photo_presentation
+{
 	display: flex;
-	flex-direction: column;
-	margin-left: 30%;
+	background: rgb(254, 202, 7);
+	width: 25%;
 }
 #photo
 {
 	float: left;
-	width: 25%;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	border-radius: 100%;
 }
 #column_left
 {
@@ -87,13 +92,14 @@ h2
 }
 #about_me
 {
-	margin-bottom: 100%;
+	margin-bottom: 70%;
 }
 
 /*Colone de droite*/
 
 #column_right
 {
+	width: 60%;
 	margin-left: 30%;
 }
 #column_right h3
@@ -102,33 +108,34 @@ h2
 	padding-bottom: 10px;
 	font-size: 1.4em;
 	text-transform: uppercase;
+	margin-top: 0;
 }
-#column_right article
+.format article
 {
 	display: flex;
 	flex-direction: column;
-	margin-left: 40%;
+	justify-content:
+}
+.format aside
+{
+	float: left;
+	width: 50%;
 }
 #column_right h4, h5
 {
 	margin-bottom: 0%;
 	margin-top: 2%;
 }
-#column_right p
+.format2
 {
-	margin-bottom: 5%;
+	display: flex;
 }
-.side
+.format2 aside
 {
-	float: left;
+	width: 55%;
 }
-.side p
+.format2 ul
 {
-	margin-top: 0px;
-}
-.side2 ul
-{
-	float: left;
 	list-style: none;
 }
 .dimensions
@@ -137,12 +144,26 @@ h2
 	color: rgb(254, 202, 7);
 	padding-right: 20px;
 }
-.paragraphe
-{
-	margin-bottom: 5%;
-	margin-top: 5%;
-}
-#paragraphe2 ul
+.format ul
 {
 	list-style: none;
+	list-style: url(image/puce_pleine.png);
+}
+.ul ul
+{
+list-style: none;
+list-style: url(image/puce_cercle.png);
+}
+aside ul p
+{
+	margin-top: 1%;
+}
+.format2 p
+{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.format aside
+{
+	display: flex;
 }
