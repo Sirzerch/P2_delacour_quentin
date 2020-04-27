@@ -34,7 +34,7 @@ h2
 #photo
 {
 	float: left;
-	border-radius: 70%;
+	border-radius: 10%;
 	width: 25%;
 	padding-top: 50px;
 }
@@ -116,7 +116,7 @@ h2
 {
 	display: flex;
 	flex-direction: column;
-	justify-content:
+	justify-content: center;
 }
 .format aside
 {
@@ -158,8 +158,6 @@ list-style: url(image/puce_cercle.png);
 }
 aside ul p
 {
-=======
-{
 	list-style: none;
 	list-style: url(image/puce_pleine.png);
 }
@@ -170,10 +168,6 @@ list-style: url(image/puce_cercle.png);
 }
 aside ul p
 {
->>>>>>> 5b04e6d9fc40cc4d0213a3559eeabf3addd4e33d
-=======
-{
->>>>>>> 5b04e6d9fc40cc4d0213a3559eeabf3addd4e33d
 	margin-top: 1%;
 }
 .format2 p
