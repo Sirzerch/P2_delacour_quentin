@@ -34,12 +34,9 @@ h2
 #photo
 {
 	float: left;
-<<<<<<< HEAD
 	border-radius: 70%;
-=======
 	width: 25%;
 	padding-top: 50px;
->>>>>>> 5b04e6d9fc40cc4d0213a3559eeabf3addd4e33d
 }
 #column_left
 {
@@ -150,10 +147,6 @@ h2
 	padding-right: 20px;
 }
 .format ul
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 5b04e6d9fc40cc4d0213a3559eeabf3addd4e33d
 {
 	list-style: none;
 	list-style: url(image/puce_pleine.png);
@@ -164,7 +157,6 @@ list-style: none;
 list-style: url(image/puce_cercle.png);
 }
 aside ul p
-<<<<<<< HEAD
 {
 =======
 {
