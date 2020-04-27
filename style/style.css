@@ -27,16 +27,13 @@ h2
 }
 .photo_presentation
 {
-	display: flex;
 	background: rgb(254, 202, 7);
 	width: 25%;
 }
 #photo
 {
-	float: left;
-	border-radius: 10%;
+	border-radius: 100%;
 	width: 100%;
-	padding-top: 50px;
 }
 #column_left
 {
