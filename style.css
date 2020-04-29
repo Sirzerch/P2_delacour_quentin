@@ -1,4 +1,17 @@
 /*Colone de gauche et en-tête*/
+@font-face {
+    font-family: 'commandocommando';
+    src: url('fonts/commando-webfont.eot');
+    src: url('fonts/commando-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/commando-webfont.woff2') format('woff2'),
+         url('fonts/commando-webfont.woff') format('woff'),
+         url('fonts/commando-webfont.ttf') format('truetype'),
+         url('fonts/commando-webfont.svg#commandocommando') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body
 {
 	margin: 20px;
@@ -24,12 +37,14 @@ h2
 {
 	margin-left: 5%;
 	padding-top: 3%;
+	font-family: 'commandocommando', Arial, Helvetica, sans-serif;
 }
 .photo_presentation
 {
-	background: rgb(254, 202, 7);
+	background: rgb(199, 53, 204);
 	width: 25%;
 	padding-top: 2%;
+	padding-bottom: 2%;
 }
 #photo
 {
@@ -50,6 +65,8 @@ h2
 #column_left ul
 {
 	list-style: none;
+	padding-left: 0;
+	margin-left: 10%;
 }
 #column_left ul p
 {
@@ -66,29 +83,30 @@ h2
 {
 	margin-left: 5%;
 	margin-right: 5%;
-	border: rgb(0, 0, 0) solid 2px;
+	border: rgb(77, 218, 240) solid 2px;
 	border-radius: 100%;
 	padding: 10px 10px 10px 10px;
 }
 .subpart
 {
 	text-align: center;
-	color: rgb(254, 202, 7);
-	background-color: rgb(0, 0, 0);
+	color:  rgb(0, 0, 0);
+	background-color: rgb(77, 218, 240);
 	text-transform: uppercase;
 	font-size: 1.4em;
+	font-family: 'commandocommando', Arial, Helvetica, sans-serif;
 }
 .background_color
 {
-	background-color: rgb(254, 202, 7);
+	background-color: rgb(199, 53, 204);
 }
 .color
 {
-	color: rgb(254, 202, 7);
+	color: rgb(199, 53, 204);
 }
 .underline
 {
-	border-bottom: rgb(254, 202, 7) solid 2px;
+	border-bottom: rgb(199, 53, 204)solid 2px;
 }
 #about_me
 {
@@ -104,11 +122,12 @@ h2
 }
 #column_right h3
 {
-	border-bottom: rgb(254, 202, 7) solid 2px;
+	border-bottom: rgb(199, 53, 204) solid 2px;
 	padding-bottom: 10px;
 	font-size: 1.4em;
 	text-transform: uppercase;
 	margin-top: 0;
+	font-family: 'commandocommando', Arial, Helvetica, sans-serif;
 }
 .format article
 {
@@ -120,6 +139,7 @@ h2
 {
 	float: left;
 	width: 50%;
+	margin-left: 2%;
 }
 #column_right h4, h5
 {
@@ -132,48 +152,34 @@ h2
 }
 .format2 aside
 {
-	width: 55%;
+	width: 60%;
+	margin-left: 2%;
 }
-.format2 ul
-{
-	list-style: none;
-}
-.dimensions
+.icons2
 {
 	font-size: 1.4em;
-	color: rgb(254, 202, 7);
+	color: rgb(199, 53, 204);
 	padding-right: 20px;
 }
-.format ul
-{
-	list-style: none;
-	list-style: url(image/puce_pleine.png);
-}
-.ul ul
-{
-list-style: none;
-list-style: url(image/puce_cercle.png);
-}
-aside ul p
-{
-	list-style: none;
-	list-style: url(image/puce_pleine.png);
-}
-.ul ul
-{
-list-style: none;
-list-style: url(image/puce_cercle.png);
-}
-aside ul p
-{
-	margin-top: 1%;
-}
-.format2 p
+.friends
 {
 	text-transform: uppercase;
 	font-weight: bold;
 }
-.format aside
+.icons3 
 {
-	display: flex;
+	color: rgb(199, 53, 204);
+	font-size: 0.9em;
+	padding-right: 6px;
 }
+.icons4
+{
+	color: rgb(199, 53, 204);
+	font-size: 0.7em;
+	padding-right: 9px;
+}
+.lieu
+{
+	padding-left: 20px;
+}
+/*MEDIAQUERRIES*/
