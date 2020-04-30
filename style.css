@@ -183,3 +183,43 @@ h2
 	padding-left: 20px;
 }
 /*MEDIAQUERRIES*/
+@media screen and (max-width: 920px)
+{
+	.header{
+		padding-bottom: 10%;
+	}
+	.photo_presentation{ 
+		background-color: white;
+	}
+	#title{
+		margin-left: 15%;
+		text-align: center;
+	}
+	#column{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	#column_right{
+		width: auto;
+		margin: 0;
+	}
+	#column_left{
+		width: auto;
+	}
+	#about_me{
+		margin-bottom: 0;
+	}
+	.hobbies{
+		display: flex;
+		justify-content: center;
+	}
+	#column_left ul p{
+		margin-right: 0;
+	}
+	#column_left ul{
+		margin-left: 0;
+		display: flex;
+		justify-content: space-around;
+	}
+	
+}
