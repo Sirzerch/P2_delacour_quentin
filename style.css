@@ -218,8 +218,24 @@ h2
 	}
 	#column_left ul{
 		margin-left: 0;
-		display: flex;
-		justify-content: space-around;
+	}
+	.format2 article{
+		padding-left: 2%;
+		display: block;
+	}
+	.format2 aside{
+		margin-left: 2%;
+		width: auto;
+	}
+	.format2{
+		display: block;
+		padding-bottom: 10%;
+	}
+	.format aside{
+		float: none;
+	}
+	.format article{
+		padding-bottom: 10%;
 	}
 	
 }
