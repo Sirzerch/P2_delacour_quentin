@@ -112,6 +112,10 @@ h2
 {
 	margin-bottom: 70%;
 }
+.contact
+{
+	font-weight: bold;
+}
 
 /*Colone de droite*/
 
@@ -215,9 +219,11 @@ h2
 	}
 	#column_left ul p{
 		margin-right: 0;
+		text-align: center;
 	}
 	#column_left ul{
 		margin-left: 0;
+		text-align: center;
 	}
 	.format2 article{
 		padding-left: 2%;
