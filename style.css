@@ -191,6 +191,7 @@ h2
 	}
 	.photo_presentation{ 
 		background-color: white;
+		width: 50%;
 	}
 	#title{
 		margin-left: 15%;
@@ -225,13 +226,15 @@ h2
 	.format2 article{
 		padding-left: 2%;
 		display: block;
+		padding-bottom: 2%;
 	}
 	.format2{
 		display: block;
-		padding-bottom: 10%;
+		padding-bottom: 7%;
 	}
 	.side{
 		float: none;
+		width: auto;
 	}
 	.format article{
 		padding-bottom: 10%;
